@@ -11,14 +11,14 @@ h2 {
 	font-weight: 800;
 }
 
+h4 {
+	font-weight: 800;
+	color: #000000;
+}
+
 h5 {
 	font-weight: 600;
 	color: #fb2e86;
-}
-
-h5.card-title {
-	font-weight: 800;
-	color: #000000;
 }
 
 .navbar {
