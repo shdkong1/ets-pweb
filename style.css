@@ -7,6 +7,20 @@ h2, h5 {
 	font-family: 'Josefin Sans';
 }
 
+h2 {
+	font-weight: 800;
+}
+
+h5 {
+	font-weight: 600;
+	color: #fb2e86;
+}
+
+h5.card-title {
+	font-weight: 800;
+	color: #000000;
+}
+
 .navbar {
 	padding-left: 70px;
 	padding-right: 70px;
@@ -37,7 +51,7 @@ form.example input[type="text"] {
 }
 
 /* Style the submit button */
-form .btn {
+.btn {
 	float: left;
 	width: 20%;
 	padding: 10px;
@@ -49,7 +63,7 @@ form .btn {
 	cursor: pointer;
 }
 
-form .btn:hover {
+.btn:hover {
 	background: #cf0c77;
 }
 
@@ -71,4 +85,17 @@ form .btn:hover {
 
 .products .col {
 	text-align: center;
+}
+
+.hero {
+	font-weight: bolder;
+	background-color: #ebdcff;
+}
+
+.hero a {
+	color: #000000;
+}
+
+.hero a.active {
+	color: #fb2e86;
 }
