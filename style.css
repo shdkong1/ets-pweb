@@ -8,6 +8,10 @@
 	box-sizing: border-box;
 }
 
+.dropdown-item.active {
+	background: #fb2e86;
+}
+
 /* Style the search field */
 form.example input[type="text"] {
 	padding: 10px;
