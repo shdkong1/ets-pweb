@@ -1,0 +1,56 @@
+.navbar {
+	font-family: Josefin Sans;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+	padding: 10px;
+	border: 1px solid #f2f0ff;
+	float: left;
+	width: 80%;
+	height: auto;
+	background: #f1f1f1;
+}
+
+/* Style the submit button */
+.button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #fb2e86;
+	color: white;
+	font-size: 16px;
+	border: 1px solid #f2f0ff;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #cf0c77;
+}
+
+.topbar-kiri {
+	color: white;
+}
+
+.center-cropped {
+	width: 200px;
+	height: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.carousel-item .row1 {
+	text-align: left;
+	position: relative;
+}
+
+.products .col {
+	text-align: center;
+}
