@@ -1,12 +1,26 @@
+* {
+	box-sizing: border-box;
+	font-family: 'lato';
+}
+
+h2, h5 {
+	font-family: 'Josefin Sans';
+}
+
 .navbar {
-	font-family: Josefin Sans;
 	padding-left: 70px;
 	padding-right: 70px;
 }
 
-* {
-	box-sizing: border-box;
+.navbar a {
+	font-family: 'Josefin Sans';
+	color: #000000;
 }
+
+.navbar-brand {
+	font-weight: bold;
+}
+
 
 .dropdown-item.active {
 	background: #fb2e86;
@@ -23,7 +37,7 @@ form.example input[type="text"] {
 }
 
 /* Style the submit button */
-.button {
+form .btn {
 	float: left;
 	width: 20%;
 	padding: 10px;
@@ -35,7 +49,7 @@ form.example input[type="text"] {
 	cursor: pointer;
 }
 
-.button:hover {
+form .btn:hover {
 	background: #cf0c77;
 }
 
